@@ -1,6 +1,6 @@
-
-import { useState } from 'react'
 import {BrowserRouter, Routes, Route} from "react-router-dom"
+import { useState } from 'react'
+
 import Home from "./pages/home"
 import Layout from "./pages/layout"
 import Contact from './pages/contact'
