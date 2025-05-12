@@ -1,0 +1,59 @@
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 500px;
+
+    margin: 50px 150px;
+}
+
+
+.features .features-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+.features .features-txt h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #000000;
+}
+
+
+.features .features-txt h1 span {
+    color: #01AEE7;
+}
+
+
+.features .features-txt p {
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+    width: 450px;
+}
+
+
+.features .features-txt hr {
+    background-color: #FFF500;
+    height: 5px;
+    border: none;
+}
+
+
+.features .features-txt > span {
+    display: flex;
+    align-items: center;
+    
+    font-size: 30px;
+    font-weight: 700;
+    color: #01AEE7;
+
+    text-transform: uppercase;
+}
+
+
+.product {
+    background: url(../../assets/product-bg.svg);
+}

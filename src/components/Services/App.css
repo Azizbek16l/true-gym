@@ -1,0 +1,55 @@
+.services {
+    background: #EEEEEE;
+    margin: 90px 0 0 0;
+}
+
+
+.services > .flex {
+    justify-content: space-between;
+}
+
+
+.services h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #01AEE7;
+
+    padding: 100px;
+}
+
+
+.services .cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+
+.services .cards .card .icon {
+    font-size: 55px;
+    color: #01AEE7;
+}
+
+
+.services .cards .card h5 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+}
+
+
+.services .cards .card p {
+    font-size: 15px;
+    font-weight: 400;
+    width: 270px;
+}
+
+
+.services .cards {
+    flex-wrap: wrap;
+    gap: 100px;
+
+    width: 692px;
+    margin: 0 100px;
+}

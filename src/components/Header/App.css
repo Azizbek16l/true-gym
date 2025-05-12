@@ -1,0 +1,42 @@
+header > .flex {
+    justify-content: flex-end;
+    gap: 80px;
+}
+
+
+header .wrapper {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+header .wrapper button {
+    background: #01AEE7;
+    padding: 9px 40px;
+    border: none;
+
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.lang-num a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+
+header .wrapper > .flex {
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header .wrapper {
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}

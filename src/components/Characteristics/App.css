@@ -1,0 +1,73 @@
+.characteristics .card {
+    background: url(../../assets/characteristics.svg);
+    padding: 150px 50px 30px 50px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: center;
+
+    width: 600px;
+}
+
+
+.display-m {
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+
+.body-m {
+    font-size: 18px;
+    font-weight: 400;
+    color: #F5F5F5;
+    width: 550px;
+}
+
+
+.hr {
+    width: 240px;
+    background: #FFF500;
+    height: 2px;
+    border: none;
+}
+
+
+.characteristics .s-card {
+    background: #01AEE7;
+    padding: 21px 46px 16px 53px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 17px;
+
+    height: fit-content;
+    width: 600px;
+}
+
+
+.characteristics > .flex {
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.characteristics > .container {
+    width: 90%;
+}
+
+
+.characteristics .container .flex {
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.characteristics .c-img {
+    background: url(../../assets/value.svg);
+}

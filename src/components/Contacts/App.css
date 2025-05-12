@@ -1,0 +1,64 @@
+.contacts {
+    background: url(../../assets/contacts.svg);
+    padding: 127px 0 126px;
+    background-size: cover;
+}
+
+
+.contacts .container {
+    width: 510px;
+    background: #fff;
+
+    padding: 53px 27px 25px 28px;
+}
+
+
+.contacts form {
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.contacts form input {
+    padding: 10px 20px;
+    background: #F0F0F0;
+    border: none;
+    width: 450px;
+}
+
+
+.contacts form button {
+    padding: 12px 150px;
+    background: #01AEE7;
+    border: none;
+
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+.contacts > .flex {
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.contacts h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+}
+
+
+.contacts h6 {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+.contacts p {
+    font-size: 13px;
+    font-weight: 400;
+}

@@ -1,0 +1,17 @@
+.hero {
+    background: url(../../assets/Hero-img.svg);
+    width: 100%;
+    height: 80vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #EEEEEE;
+    text-align: center;
+}
