@@ -1,6 +1,6 @@
 function Adventages() {
     return (
-        <h1>Adventages</h1>
+        <h2>Adventages</h2>
     )
 }
 
